@@ -361,7 +361,6 @@ img {
   padding: 0 20px;
 }
 
-<<<<<<< HEAD
 .site-header {
   padding: 15px 0 504px 0;
   background-image: url("../../images/Main-page/hero-bg.jpg");
@@ -612,7 +611,6 @@ img {
     max-width: 300px;
   }
 }
-=======
 .dom__inner {
   margin-top: 20px;
   margin-bottom: 100px;
@@ -681,7 +679,6 @@ img {
   border: transparent;
 }
 
->>>>>>> fee69ed2c61da28f7dd4c5789e380fadddf730cc
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
