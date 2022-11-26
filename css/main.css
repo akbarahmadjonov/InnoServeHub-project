@@ -356,11 +356,12 @@ img {
 
 .container {
   max-width: 100%;
-  width: 1380px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+<<<<<<< HEAD
 .site-header {
   padding: 15px 0 504px 0;
   background-image: url("../../images/Main-page/hero-bg.jpg");
@@ -611,6 +612,76 @@ img {
     max-width: 300px;
   }
 }
+=======
+.dom__inner {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.dom__card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.site_form {
+  padding: 120px 0px 142px;
+  background: #AEA38B;
+}
+
+.label__text {
+  display: block;
+  margin: 0;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+
+.label_mintext {
+  display: block;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.form__input {
+  padding: 18px 0px 18px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.btn {
+  padding: 18px 80px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #D8B152;
+  border: transparent;
+}
+
+>>>>>>> fee69ed2c61da28f7dd4c5789e380fadddf730cc
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
