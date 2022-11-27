@@ -1,0 +1,136 @@
+//**************
+//***Site-footer***//
+//*************
+.site-footer {
+  background-color: #202020;
+}
+
+.site-footer__inner {
+  display: flex;
+  justify-content: space-between;
+
+  //   Paddings
+  padding: 140px 0 140px 0;
+}
+
+.site-footer__box strong {
+  display: inline-block;
+
+  // Margins
+  margin-bottom: 20px;
+
+  // Font styles
+  font-weight: 600;
+  font-size: 18px;
+
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.site-footer__inner ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer__box li {
+  display: flex;
+  list-style: none;
+}
+
+.site-footer__box li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.site-footer__inner a {
+  // Font styles
+  font-weight: 400;
+  font-size: 18px;
+
+  //   Item styles
+  line-height: 25px;
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ffffff;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.site-footer__inner .site-footer__box:nth-child(3) a {
+  display: block;
+}
+
+.site-footer__inner .site-footer__links li:nth-child(1)::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  //   Margins
+  margin-right: 10px;
+
+  background-image: url("../../images/footer-phone.svg");
+  display: inline-block;
+}
+
+.site-footer__inner .site-footer__links li:nth-child(2)::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  //   Margins
+  margin-right: 10px;
+
+  background-image: url("../../images/footer-sms.svg");
+  display: inline-block;
+}
+
+.site-footer__socials a {
+  // Margin,paddings
+  margin-right: 25px;
+  padding: 13px;
+
+  // Item styles
+  font-size: 20px;
+  border: 1px solid #d8b152;
+  opacity: 1;
+  color: #d8b152;
+  &:hover {
+    color: #fff;
+    background-color: #d8b152;
+    transition: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .site-footer__inner {
+    display: block;
+
+    // Paddings
+    padding: 90px 0 90px 0;
+  }
+
+  .site-footer__box:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .site-footer .site-logo img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .site-footer__inner {
+    display: block;
+
+    // Paddings
+    padding: 90px 0 90px 0;
+  }
+
+  .site-footer__box:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .site-footer .site-logo img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
