@@ -99,6 +99,31 @@
   }
 }
 
+.footer__line {
+  border: 1px solid#d8b152;
+}
+
+.footer__upper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__upper small {
+  // Font styles
+  font-weight: 400;
+  font-size: 16px;
+
+  // Item styles
+  line-height: 22px;
+  text-decoration: underline;
+  color: #ffffff;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .site-footer__inner {
     display: block;
