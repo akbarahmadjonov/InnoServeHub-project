@@ -945,6 +945,180 @@ img {
   margin-top: 50px;
 }
 
+.publication {
+  padding-bottom: 140px;
+}
+
+.publication__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.publication__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.publication__item {
+  padding-top: 40px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.publication__item:nth-child(2n+1) {
+  border-right: 1px solid #aea38b;
+  border-bottom: 1px solid #aea38b;
+}
+
+.publication__item:nth-child(2n) {
+  padding-left: 30px;
+  border-bottom: 1px solid #aea38b;
+}
+
+.publication-list__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  color: #424242;
+}
+
+.publication-list__text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.publication__item--text {
+  margin-bottom: 123px;
+}
+
+.publication-list__link {
+  display: inline-block;
+  margin-bottom: 50px;
+  padding: 18px 79px 17px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #d8b152;
+}
+
+.site-header--media {
+  background-image: none;
+  padding: 0;
+}
+
+.navbar__link--media {
+  color: #424242;
+}
+.navbar__link--media:hover {
+  color: #000;
+}
+
+.services__text1 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.services__text2 {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.services__text3 {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.footer__line {
+  border: 1px solid #d8b152;
+}
+
+.dom__inner {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.dom__card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.site_form {
+  padding: 120px 0px 142px;
+  background: #AEA38B;
+}
+
+.label__text {
+  display: block;
+  margin: 0;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+
+.label_mintext {
+  display: block;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.form__input {
+  padding: 18px 0px 18px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.btn {
+  padding: 18px 80px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #D8B152;
+  border: transparent;
+}
+
 .site-footer {
   background-color: #202020;
 }
@@ -1074,108 +1248,6 @@ img {
     margin-bottom: 50px;
   }
 }
-.site-header--media {
-  background-image: none;
-  padding: 0;
-}
-
-.navbar__link--media {
-  color: #424242;
-}
-.navbar__link--media:hover {
-  color: #000;
-}
-
-.services__text1 {
-  position: absolute;
-  top: 30%;
-  left: 20%;
-}
-
-.services__text2 {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-}
-
-.services__text3 {
-  position: absolute;
-  top: 30%;
-  left: 8%;
-}
-
-.footer__line {
-  border: 1px solid #d8b152;
-}
-
-.dom__inner {
-  margin-top: 20px;
-  margin-bottom: 100px;
-}
-
-.title {
-  margin-bottom: 60px;
-}
-
-.dom__card {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.site_form {
-  padding: 120px 0px 142px;
-  background: #AEA38B;
-}
-
-.label__text {
-  display: block;
-  margin: 0;
-  font-weight: 600;
-  font-size: 46px;
-  line-height: 63px;
-  color: #FFFFFF;
-}
-
-.label_mintext {
-  display: block;
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #FFFFFF;
-}
-
-.submit {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 60px;
-}
-
-.form__input {
-  padding: 18px 0px 18px 30px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #FFFFFF;
-  background-color: transparent;
-  border: 2px solid white;
-}
-
-.btn {
-  padding: 18px 80px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #FFFFFF;
-  background: #D8B152;
-  border: transparent;
-}
-
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
