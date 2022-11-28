@@ -429,6 +429,11 @@ img {
   border: transparent;
 }
 
+@media only screen and (max-width: 768px) {
+  .dom__inner {
+    margin-top: 10px;
+  }
+}
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
