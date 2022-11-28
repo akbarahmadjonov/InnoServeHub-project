@@ -1,0 +1,36 @@
+//**************
+//***Media page***//
+//*************
+.site-header--media {
+  background-image: none;
+  padding: 0;
+}
+
+.navbar__link--media {
+  color: #424242;
+  &:hover {
+    color: #000;
+  }
+}
+
+.services__text1 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.services__text2 {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.services__text3 {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.footer__line {
+  border: 1px solid#d8b152;
+}

@@ -1,0 +1,146 @@
+//**************
+//***Services section***//
+//*************
+.services {
+  padding: 120px 0 120px 0;
+}
+
+.services h2 {
+  // Font styles
+  font-weight: 600;
+  font-size: 46px;
+
+  //   Item styles
+  line-height: 63px;
+  color: #424242;
+}
+
+.services__box {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services__text1 {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+}
+
+.services__text2 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.services__text3 {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+}
+
+.services__box a {
+  // Paddings
+  padding: 16px 20px;
+  width: 100%;
+  max-width: 260px;
+
+  // Font styles
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+
+  // Item styles
+  background-color: #d8b152;
+  line-height: 25px;
+  border: 4px solid transparent;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0;
+  color: #ffffff;
+
+  &:hover {
+    background-color: transparent;
+    border: 4px solid #d8b152;
+    color: #fff;
+  }
+}
+
+.services__box:hover a {
+  opacity: 1;
+}
+
+.services__box:hover img {
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+
+.services__box h3 {
+  // Font styles
+  font-weight: 600;
+  font-size: 28px;
+
+  //   Item styles
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 375px) {
+  .services__inner {
+    display: block;
+  }
+
+  .services__box img {
+    width: 100%;
+  }
+
+  .services__box:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .services__text3 {
+    left: 4%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .services__inner {
+    display: block;
+  }
+
+  .services__box img {
+    width: 100%;
+  }
+
+  .services__box:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .services__text3 {
+    left: 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services__inner {
+    display: block;
+  }
+
+  .services__box img {
+    width: 100%;
+  }
+
+  .services__box:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .services__text3 {
+    left: 10%;
+  }
+}
