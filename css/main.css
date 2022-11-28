@@ -995,7 +995,7 @@ img {
 }
 
 .dom__inner {
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 
@@ -1059,6 +1059,82 @@ img {
   text-align: center;
   color: #FFFFFF;
   background: #D8B152;
+  border: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .dom__inner {
+    margin-top: 10px;
+  }
+}
+.hero-service {
+  margin: 80px 120px;
+}
+
+.service__btn {
+  padding: 18px 55px;
+  margin-right: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+  background-color: #fff;
+  border: 2px solid #AEA38B;
+}
+
+.service__title {
+  margin: 0px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.service__card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card__content {
+  width: 100%;
+  max-width: 360px;
+}
+
+.card__img {
+  background: #C4C4C4;
+}
+
+.card__text {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #424242;
+}
+
+.card__money {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  color: #424242;
+}
+
+.card__btn {
+  display: block;
+  margin: 0 auto;
+  padding: 18px 55px;
+  background: #D8B152;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
   border: transparent;
 }
 
