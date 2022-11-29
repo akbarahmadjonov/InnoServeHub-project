@@ -1193,7 +1193,7 @@ img {
   position: relative;
   background-image: url("../images/Portfolio/living-room.webp");
   background-repeat: no-repeat;
-  background-position: 50% calc(50% - 620px);
+  background-position: 50% calc(50% - 970px);
 }
 
 .rooms__list {
