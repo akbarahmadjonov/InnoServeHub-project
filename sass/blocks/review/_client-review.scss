@@ -1,5 +1,5 @@
 .dom__inner{
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
   .title{
@@ -60,3 +60,8 @@
     background: #D8B152;
     border: transparent;
   }
+@media only screen and(max-width:768px) {
+  .dom__inner{
+    margin-top: 10px;
+  }
+}
