@@ -2,13 +2,28 @@
 @import "real-estate";
 @import "our-services";
 @import "joining";
-@import "footer";
 // Index page Akbar
+// Awards page Dilshod
+@import "awards/our-awards";
+// Publication page Dilshod
+@import "publication/publication";
+// Portfolio page Dilshod
+@import "portfolio/portfolio-hero";
+@import "portfolio/months";
+@import "portfolio/rooms";
+
 // Media page Akbar
 @import "media/media-hero";
 // Media page Akbar
+<<<<<<< HEAD
 //bekzod
 @import "project/country-house";
 @import "service/service";
 @import "publication/publication";
 //bekzod
+=======
+
+@import "review/client-review";
+@import "footer";
+@import "service/service"
+>>>>>>> edc9f5b28b9e4031a27dcfe69c9e3532c44ab1ef
