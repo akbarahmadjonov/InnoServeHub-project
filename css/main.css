@@ -1772,6 +1772,143 @@ img {
   background-color: #d8b152;
 }
 
+.review h2 {
+  margin-top: 38px;
+  margin-bottom: 38px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.order {
+  margin-bottom: 140px;
+}
+
+.order h2 {
+  margin-top: 150px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.order p {
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #424242;
+}
+
+.former form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.former form input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.former form input {
+  padding: 18px 0 18px 30px;
+  display: block;
+  max-width: 100%;
+  width: 360px;
+  border: 3px solid #aea38b;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #424242;
+}
+
+.former textarea {
+  padding: 18px 0 18px 30px;
+  width: 760px;
+  height: 238px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #424242;
+  resize: none;
+  border: 3px solid #aea38b;
+  outline: none;
+}
+
+.former .form-inputs button {
+  padding: 18px 50px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  background: #d8b152;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 375px) {
+  .review h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .order h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .former form {
+    flex-direction: column;
+  }
+  .former form input {
+    width: 100%;
+  }
+  .former textarea {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .review h2 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .order h2 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .former form {
+    flex-direction: column;
+  }
+  .former form input {
+    width: 100%;
+  }
+  .former textarea {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .review h2 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .order h2 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .former form {
+    flex-direction: column;
+  }
+  .former form input {
+    width: 100%;
+  }
+  .former textarea {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
 .site-footer {
   background-color: #202020;
 }

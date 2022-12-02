@@ -1,13 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
     <title>Review</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <div class="site-header site-header--media">
+        <h1 class="visually-hidden">Site TTAL</h1>
+        <div class="container">
+            <div class="site-header__inner">
+                <a class="site-logo" href="./index.html">
+                    <img src="./images/site-logo-media-page.svg" alt="Site-logo">
+                </a>
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--media" href="./project.html">Наши проекты</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--media" href="./media.html">Медиа</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--media" href="./about-us.html">О нас</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--media" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button>
+                    <img class="menu-btn" src="./images/menu-btn.svg" alt="Menu button">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+
+    <main>
+        <!-- Carousel -->
+        <section class="row review col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xl-12">
+            <div class="container">
+                <h2>Отзывы наших клиентов</h2>
+                <div class="slider">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/Review/comment-pic-1.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/Review/comment-pic-2.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Review/comment-pic-3.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Carousel -->
+
+        <!-- Contact -->
+        <section class="order">
+            <div class="container">
+                <h2>Заказывали проект у нас?</h2>
+                <p>Оставьте ваш отзыв в форме ниже и мы его опубликуем на нашем сайте</p>
+                <div class="former">
+                    <form action="https://echo.htmlacademy.ru/" method="post">
+                        <div class="form-inputs">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                            <input type="number" name="number" placeholder="Номер телефона" required>
+                            <button>Отправить</button>
+                        </div>
+                        <div class="form-inputs">
+                            <textarea cols="30" rows="10" name="client_review" placeholder="Ваш отзыв"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__inner">
+                <a class="site-logo" href="#">
+                    <img src="./images/site-logo-main.svg" alt="Site-logo">
+                </a>
+                <div class="site-footer__box">
+                    <strong>Информация</strong>
+                    <ul>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="./media.html">Медиафайлы</a>
+                        </li>
+                        <li>
+                            <a href="./review.html">Отзыв</a>
+                        </li>
+                        <li>
+                            <a href="#">Загородные дома</a>
+                        </li>
+                        <li>
+                            <a href="#">Квартиры</a>
+                        </li>
+                        <li>
+                            <a href="#">Нежилые помещения</a>
+                        </li>
+                        <li>
+                            <a href="#">О компании</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-footer__box">
+                    <strong>Контакты</strong>
+                    <ul class="site-footer__links">
+                        <li>
+                            <a href="tel:+ 7 (499) 409-16-12">+ 7 (499) 409-16-12</a>
+                        </li>
+                        <li>
+                            <a href="mailto:italproekt@gmail.com">italproekt@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-footer__box">
+                    <strong>Соц. сети</strong>
+                    <ul class="site-footer__socials">
+                        <li>
+                            <a class="fa-brands fa-facebook-f" href="#"></a>
+                            <a class="fa-brands fa-youtube" href="#"></a>
+                            <a class="fa-brands fa-pinterest" href="#"></a>
+                            <a class="fa-brands fa-instagram" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer__line">
+            <div class="footer__upper">
+                <div class="footer__wrapper">
+                    <a href="#">
+                        <small>Политика конфиденциальности</small>
+                    </a>
+                </div>
+                <div class="footer__wrapper">
+                    <a href="#">
+                        <small>designed by Linar</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- On GitHub: https://github.com/akbarahmadjonov -->
+
 </body>
+
 </html>
