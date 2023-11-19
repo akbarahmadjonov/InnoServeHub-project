@@ -12,7 +12,7 @@ This project, InnoServeHub, is a web platform created with HTML and CSS. It focu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/innoservehub-project.git
+   git clone https://github.com/akbarahmadjonov/innoservehub-project.git
 Navigate to the project directory:
 
 cd innoservehub-project
